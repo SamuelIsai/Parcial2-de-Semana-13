@@ -44,6 +44,7 @@ namespace Parcial2_de_Semana_13
             this.btnbuscar.TabIndex = 0;
             this.btnbuscar.Text = "Buscar";
             this.btnbuscar.UseVisualStyleBackColor = true;
+            this.btnbuscar.Click += new System.EventHandler(this.btnbuscar_Click);
             // 
             // textBox1
             // 
